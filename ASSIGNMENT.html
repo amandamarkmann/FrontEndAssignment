@@ -1,0 +1,87 @@
+<!--
+
+Required Features:
+
+x•The page should be encoded using the UTF-8 character set
+
+x•A page title, defined in the head element.
+
+x•A header element containing a heading (h1) with the page name. It should also have a nav element with an unordered list of at least 3 links
+
+x•A container element for the main content of the page, containing a heading(h2), a paragraph of text and two article elements. 
+Each should have filler text -at least 2 paragraphs each. One should have an image (usefreeonline pic)
+
+x•A asideelement, containing a heading(h2) and an unordered list of nations, each list item containing an ordered list of 
+the nation’s three biggest cities
+
+x•A footer element, containing a copyright symbol and your name
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment</title>
+</head>
+
+<body>
+    <header>
+    <h1>HTML Assignment</h1>
+    <nav>
+            <ul>
+                   
+                <li><a href ="http://www.lexicon.se" class="link-button" id="link-lexicon">Lexicon</a></li>
+                <li><a href ="https://www.w3schools.com/html/html_intro.asp" class="link-button" id="link-w3schools">w3schools</a></li>
+                <li><a href ="https://sv.lipsum.com/feed/html" class="link-button" id="link-lipsum">Lipsum</a></li>  
+    </ul>
+    </nav>
+    </header>
+
+
+    <div>
+    <h2>Lorem Ipsum</h2>
+    <p>Aliquam pellentesque dui a nulla feugiat tempus.</p>
+    
+    <article>Nulla finibus nec ipsum a ultrices. Sed nec tellus non tortor egestas gravida eu vel sem. Aenean eu feugiat est. Sed sit amet odio vitae dui mattis ultricies. Aenean non ligula metus. Phasellus maximus vehicula nibh, in luctus est. Sed lobortis justo vitae vestibulum placerat.</article>
+    
+    <article> <img src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg" height="200" width="170">
+        <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in dignissim massa, id imperdiet diam. Mauris hendrerit dolor vitae nibh tempus, non lobortis diam commodo. Morbi sit amet dolor vel nisi sodales lobortis. Vivamus egestas consequat nibh. Morbi eget ultricies mauris. Duis luctus porttitor erat sed venenatis. Phasellus quis tortor a tellus rutrum rhoncus non vitae lorem. Quisque cursus, lectus vitae consectetur cursus, arcu nibh dapibus enim, ac pretium nisl nunc id quam. In mauris turpis, fringilla vitae lectus eget, cursus auctor nunc. Donec sed posuere ligula. Praesent fringilla pulvinar purus, in sollicitudin enim dictum eget. Nullam tincidunt vulputate erat, malesuada porttitor est rutrum quis. Nunc eu velit leo. Mauris non massa dignissim, porttitor magna gravida, dapibus arcu.
+    
+          </article>
+    </div>
+
+    <aside>
+        <h2>Nations</h2>
+        <ul>
+            <li>Costa Rica</li>
+                <ol><li>San José</li>
+                <li>Puerto Limón</li>
+                <li>San Francisco</li></ol>
+            
+            <li>Greece</li>
+                <ol><li>Athens</li>
+                <li>Thessaloniki</li>
+                <li>Patras</li></ol>
+
+            <li>Italy</li>
+                <ol><li>Rome</li>
+                <li>Milan</li>
+                <li>Naples</li></ol>
+
+        </ul>
+
+    </aside>
+
+    <footer>
+        <p>&copy; Amanda Markmann</p>
+
+    </footer>
+
+
+    </body>
+</html>
